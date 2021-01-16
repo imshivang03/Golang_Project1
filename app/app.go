@@ -6,10 +6,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/imshivang03/Golang_Project1/app/handler"
+	"github.com/imshivang03/Golang_Project1/app/model"
+	"github.com/imshivang03/Golang_Project1/config"
 	"github.com/jinzhu/gorm"
-	"github.com/mingrammer/go-todo-rest-api-example/app/handler"
-	"github.com/mingrammer/go-todo-rest-api-example/app/model"
-	"github.com/mingrammer/go-todo-rest-api-example/config"
 )
 
 // App has router and db instances

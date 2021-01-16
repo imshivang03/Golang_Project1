@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/imshivang03/Golang_Project1/app/model"
 	"github.com/jinzhu/gorm"
-	"github.com/mingrammer/go-todo-rest-api-example/app/model"
 )
 
 func GetAllProjects(db *gorm.DB, w http.ResponseWriter, r *http.Request) {

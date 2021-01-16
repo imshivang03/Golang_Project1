@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/mingrammer/go-todo-rest-api-example/app"
-	"github.com/mingrammer/go-todo-rest-api-example/config"
+	"github.com/imshivang03/Golang_Project1/app"
+	"github.com/imshivang03/Golang_Project1/config"
 )
 
 func main() {
